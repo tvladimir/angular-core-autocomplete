@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Ww0M8JV0vqQIUGkxmqTWhf6RyKjT74qJxfj/JhmfDPM=",
+  "Source": "core-angular-autocomplete",
+  "BasePath": "_content/core-angular-autocomplete",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "core-angular-autocomplete/wwwroot",
+      "Source": "core-angular-autocomplete",
+      "ContentRoot": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/wwwroot/",
+      "BasePath": "_content/core-angular-autocomplete",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/wwwroot/favicon.ico",
+      "SourceId": "core-angular-autocomplete",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/wwwroot/",
+      "BasePath": "_content/core-angular-autocomplete",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    }
+  ]
+}

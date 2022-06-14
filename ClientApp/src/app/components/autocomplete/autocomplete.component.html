@@ -1,0 +1,39 @@
+<div class="autocomplete-container">
+  <div class="input-container" [ngClass]="{'open': isOpen}">
+    <input #searchInput
+           type="text"
+           [attr.disabled]="disabled || isLoading? true : null"
+           attr.aria-label="{{placeholder}}"
+           aria-autocomplete="list"
+           role="combobox"
+           [attr.placeholder]="placeholder ? placeholder : null"
+           [(ngModel)]=query
+           autocomplete="off">
+  </div>
+
+  <!--FilteredList items-->
+  <div class="options-container" id="options" role="listbox" *ngIf="isOpen && !isLoading && !notFound">
+    <ul #filteredListElement>
+      <cdk-virtual-scroll-viewport class="options-virtual-scroll-viewport" itemSize="34">
+        <ng-container *cdkVirtualFor="let item of filteredList; let index = index">
+          <li class="item" tabindex="0" (click)="selectItem(item)" (keydown)="onOptionKeyDown($event, item)">
+            <span>
+              {{isString(item) ? item : item[searchKeyword]}}
+            </span>
+          </li>
+        </ng-container>
+      </cdk-virtual-scroll-viewport>
+    </ul>
+  </div>
+
+  <!--Is Loading-->
+  <div class="loading" *ngIf="isLoading">
+    <span #refIsLoading><ng-content select="[loader]"></ng-content></span>
+    <span *ngIf="!refIsLoading.children.length">{{isLoadingText}}</span>
+  </div>
+  <!--Not Found-->
+  <div class="not-found" *ngIf="!isLoading && notFound">
+    <span #refNotFound><ng-content select="[notFound]"></ng-content></span>
+    <span *ngIf="!refNotFound.children.length">{{notFoundText}}</span>
+  </div>
+</div>

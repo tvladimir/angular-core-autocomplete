@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44406",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/ClientApp/",
+"MaxTimeoutInSeconds": "120"
+}
+}

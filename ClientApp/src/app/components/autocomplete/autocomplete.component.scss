@@ -1,0 +1,72 @@
+
+.autocomplete-container{
+  position: relative;
+}
+.input-container{
+  padding: 5px;
+  border: solid 1px #42356061;
+  border-radius: 5px 5px 5px 5px;
+  &.open{
+    border-radius: 5px 5px 0 0;
+  }
+
+  input{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.2em;
+    border: none;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+.loading,
+.not-found{
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  margin: 0;
+  padding: 5px 10px;
+  border: solid 1px #42356021;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 1px 3px 5px #00000017;
+  z-index: 99999;
+}
+.options-container{
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  z-index: 99999;
+
+  ul{
+    margin: 0;
+    padding: 0 0;
+    border: solid 1px #42356021;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 1px 3px 5px #00000017;
+  }
+  li{
+    list-style: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all .35s;
+    border:solid 1px transparent;
+    box-sizing: border-box;;
+    &:hover, &:focus{
+      background: #42356021;
+    }
+    &:focus{
+      border:solid 1px #42356065;
+      outline: none;
+    }
+  }
+  .options-virtual-scroll-viewport{
+    height: 400px;
+  }
+}

@@ -1,0 +1,58 @@
+<div>{{selectedItem | json}}</div>
+
+<div class="autocomplete-holder">
+  <span class="title">Regular use</span>
+  <app-autocomplete
+    [data]="cities"
+    (selected)='selectEvent($event)'
+    [searchKeyword]="'name'"
+    >
+  </app-autocomplete>
+</div>
+
+<div class="autocomplete-holder">
+  <span class="title">With String array with placeholder</span>
+  <app-autocomplete
+    [data]="citiesNames"
+    (selected)='selectEvent($event)'
+    [isLoading]="isLoading | async"
+    [placeholder]="'wow...'"
+    >
+  </app-autocomplete>
+</div>
+
+<div class="autocomplete-holder">
+  <span class="title">With custom not found</span>
+  <app-autocomplete
+    [data]="cities"
+    (selected)='selectEvent($event)'
+    [isLoading]="isLoading | async"
+    [searchKeyword]="'name'">
+    <span class="custom-not-found" notFound>...</span>
+  </app-autocomplete>
+</div>
+
+<div class="autocomplete-holder">
+  <span class="title">With isLoading</span>
+  <app-autocomplete
+    [data]="cities"
+    (selected)='selectEvent($event)'
+    [isLoading]="true"
+    [searchKeyword]="'name'">
+    <span class="custom-not-found" notFound>...</span>
+  </app-autocomplete>
+</div>
+
+<div class="autocomplete-holder">
+  <span class="title">With custom Loading</span>
+  <app-autocomplete
+    [data]="cities"
+    (selected)='selectEvent($event)'
+    [isLoading]="true"
+    [searchKeyword]="'name'">
+    <span class="custom-not-found" notFound>...</span>
+    <span class="spinner-holder" loader>
+      <div class="spinner"></div>
+    </span>
+  </app-autocomplete>
+</div>
