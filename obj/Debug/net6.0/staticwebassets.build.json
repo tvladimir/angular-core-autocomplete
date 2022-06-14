@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ww0M8JV0vqQIUGkxmqTWhf6RyKjT74qJxfj/JhmfDPM=",
+  "Hash": "LigPMqOQf9vanmkM58RugITT0yjLWHIEubnAZVGpLx8=",
   "Source": "core-angular-autocomplete",
   "BasePath": "_content/core-angular-autocomplete",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "core-angular-autocomplete/wwwroot",
       "Source": "core-angular-autocomplete",
-      "ContentRoot": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/wwwroot/",
+      "ContentRoot": "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/wwwroot/",
       "BasePath": "_content/core-angular-autocomplete",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/wwwroot/favicon.ico",
+      "Identity": "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/wwwroot/favicon.ico",
       "SourceId": "core-angular-autocomplete",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/wwwroot/",
+      "ContentRoot": "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/wwwroot/",
       "BasePath": "_content/core-angular-autocomplete",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

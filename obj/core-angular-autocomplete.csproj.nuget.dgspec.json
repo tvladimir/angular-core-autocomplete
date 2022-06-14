@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/core-angular-autocomplete.csproj": {}
+    "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/core-angular-autocomplete.csproj": {}
   },
   "projects": {
-    "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/core-angular-autocomplete.csproj": {
+    "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/core-angular-autocomplete.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/core-angular-autocomplete.csproj",
+        "projectUniqueName": "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/core-angular-autocomplete.csproj",
         "projectName": "core-angular-autocomplete",
-        "projectPath": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/core-angular-autocomplete.csproj",
+        "projectPath": "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/core-angular-autocomplete.csproj",
         "packagesPath": "/Users/vladimirtrofimyuk/.nuget/packages/",
-        "outputPath": "/Users/vladimirtrofimyuk/TRASH/core-angular-autocomplete/obj/",
+        "outputPath": "/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vladimirtrofimyuk/.nuget/NuGet/NuGet.Config"

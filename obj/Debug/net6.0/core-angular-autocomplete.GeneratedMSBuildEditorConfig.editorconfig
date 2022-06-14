@@ -8,17 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = core_angular_autocomplete
 build_property.RootNamespace = core_angular_autocomplete
-build_property.ProjectDir = /Users/vladimirtrofimyuk/TRASH/angular-core-autocomplete/
+build_property.ProjectDir = /Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/vladimirtrofimyuk/TRASH/angular-core-autocomplete
+build_property.MSBuildProjectDirectory = /Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/vladimirtrofimyuk/TRASH/angular-core-autocomplete/Pages/Error.cshtml]
+[/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/vladimirtrofimyuk/TRASH/angular-core-autocomplete/Pages/_ViewImports.cshtml]
+[/Users/vladimirtrofimyuk/TRASH2/angular-core-autocomplete/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
